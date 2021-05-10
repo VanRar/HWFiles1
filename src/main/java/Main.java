@@ -39,7 +39,7 @@ public class Main {
             // запись байтов в файл
             fos.write(bytes, 0, bytes.length);
         } catch (IOException ex) {
-            System.out.println(ex.getMessage());
+            log.append(ex.getMessage());
         }
     }
 
